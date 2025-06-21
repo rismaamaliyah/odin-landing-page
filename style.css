@@ -1,4 +1,64 @@
-.header {
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* First Section */
+
+.first-container {
     background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 24px;
     color: #f9faf8;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin: 16px;
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px 25px;
+    background-color: #3883f6;
+    border-color: #3883f6;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+/* Second Section */
+
+.second-container {
+    background-color: #f9faf8;
 }
