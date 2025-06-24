@@ -132,3 +132,25 @@ nav a {
 .card p {
     color: #6d747d;
 }
+
+/* Quote Section */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+blockquote footer {
+    font-weight: bold;
+    text-align: right;
+    font-style: normal;
+    font-size: 24px;
+}
