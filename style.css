@@ -148,7 +148,7 @@ blockquote {
     margin-bottom: 20px;
 }
 
-blockquote footer {
+blockquote p {
     font-weight: bold;
     text-align: right;
     font-style: normal;
@@ -185,4 +185,13 @@ blockquote footer {
     cursor: pointer;
     font-weight: bold;
     font-size: 14px;
+}
+
+/* Copyright Footer */
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 40px 0;
+    text-align: center;
 }
