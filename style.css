@@ -154,3 +154,35 @@ blockquote footer {
     font-style: normal;
     font-size: 24px;
 }
+
+/* Call to Action Section */
+
+.cta {
+    padding: 100px 0;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.cta button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    padding: 6px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
