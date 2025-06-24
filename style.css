@@ -97,24 +97,38 @@ nav a {
     color: #e5e7eb;
 }
 
-/* 
+/* Info Section */
 
-h2 {
-    font-size: 48px;
-    color: #f9faf8;
+.info {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.info h2 {
+    font-size: 36px;
     font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 50px;
 }
 
-p {
-    font-size: 18px;
-    color: #e5e7eb;
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
-button {
-    border-radius: 5px;
-    padding: 5px 25px;
-    background-color: #3883f6;
-    border-color: #3883f6;
-    color: #f9faf8;
-    font-weight: 700;
+.card {
+    max-width: 150px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #6d747d;
 }
